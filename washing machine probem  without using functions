@@ -1,0 +1,13 @@
+#WAHSHING MACHINE PROBLEM
+i = int(input())
+if i in range(0,2001):
+    print("estimate time:25 minutes")
+elif i>2000 and i<4000:
+    print("estimated time:35 minutes")
+elif i>4000 and i<7000:
+    print("estimated time:45 minutes")
+elif i>7000:
+    print("over loaded")
+else:
+    print('invalid input')
+
