@@ -1,0 +1,160 @@
+n= int(input())
+s=0
+for i in range (1,n+1):
+    s= s+i
+print("avg is ", s/n)
+    
+
+
+n = int(input("enter from 1 to 10:"))
+print(" multiplication table", n)
+for i in range(1,11):
+    print(n,"X",i,"=",n*i)
+
+
+
+n = int(input())
+fact = 1
+for i in range(1,n+1):
+    fact=fact*i
+print(fact)
+    
+
+
+n= int(input())
+s=0.0
+for i in range(1,n+1):
+    a= 1.0/i
+    s= s+a
+print(s)
+    
+
+
+n= int(input())
+s=0.0
+for i in range(1,n+1):
+    a = i/i+1
+    s = s+a
+print(s)
+
+
+
+n = int(input())
+a=b=s=0
+while(n!=0):
+    s=n%10
+    if(s%2==0):
+        a=a+s
+    else:
+        b=b+s
+    n=n/10
+z=abs(a-b)
+print(z)
+
+
+
+
+
+import calendar
+y = int(input("enter year"))
+m = 1
+cal = calendar.TextCalendar(calendar.SUNDAY)
+i=1
+while i<=12:
+    cal.prmonth(y,i)
+    i+=1
+
+
+#strings basic format
+txt = 'dinesh'
+index = 0
+for i in txt:
+    print("message[",index,"]=",i)
+    index+=1
+
+
+
+#strings functions
+txt = 'gladiator'
+print(txt.upper())
+
+
+n = int(input())
+s = 0
+while n!=0:
+    r = n%10
+    s = s+(r*r*r)
+    n = n//10
+if s==n:
+    print("armstrong")
+else:
+    print("not")
+
+
+
+txt= 'india'
+print(txt)
+print(txt[1:2])
+
+
+txt= 'india '
+print(txt)
+print(txt[::3])
+
+
+
+txt1= 'india  is  great'
+txt2= 'i'
+if txt2 in txt1:
+    print("found")
+else:
+    print("not found")
+
+
+
+txt= 'india is great'
+i=0
+while i<len(txt):
+    letter = txt[i]
+    print(letter, end=" ")
+    i+=1
+
+
+
+n= int(input())
+for i in range(1, n+1):
+    ch='A'
+    print()
+    for J in range(1, i+1):
+        print(ch, end=' ')
+        ch= chr(ord(ch)+1)
+
+
+
+
+
+message =  "danger"
+i=0
+while i<len(message):
+    letter = message[i]
+    print(chr(ord(letter)+2),end=' ')
+    i+=1
+    
+
+
+str1 = 'ABCDEFG'
+str2 = 'ot'
+for l in str1:
+    print((l+str2), end=" \n")
+
+
+
+abc = [1,2,3,4]
+sum = 10
+for i in abc:
+    sum+=i
+print(sum)
+print(sum/len(abc))
+
+
+
