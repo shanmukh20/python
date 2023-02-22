@@ -1,0 +1,5 @@
+def fun(*variable):
+    print(variable)
+fun(1,2,3,4)
+fun("dinesh", 123, [1,2,3])
+fun(233)
