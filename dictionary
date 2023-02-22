@@ -1,0 +1,11 @@
+username1= str(input("enter:"))
+password1= int(input("enter:"))
+credentials= {
+    "username" : "dinesh",
+    "password" : 5674
+}
+if username1==(credentials['username']) and password1==(credentials['password']):
+    print(credentials['username'])
+    print(credentials['password'])
+else:
+    print("invalid credentials")
